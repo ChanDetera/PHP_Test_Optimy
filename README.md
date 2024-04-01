@@ -1,6 +1,6 @@
 # PHP test
 
-## 1. Installation
+## Installation
 
 In terminal, run the following:
   - git clone https://github.com/ChanDetera/PHP_Test_Optimy.git

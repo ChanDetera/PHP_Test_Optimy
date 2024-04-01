@@ -2,14 +2,13 @@
 
 ## 1. Installation
 
-  - create an empty database named "phptest" on your MySQL server
-  - import the dbdump.sql in the "phptest" database
-  - put your MySQL server credentials in the .env file
-  - you can test the demo script in your shell: "php index.php"
+In terminal, run the following:
+  - git clone https://github.com/ChanDetera/PHP_Test_Optimy.git
+  - composer install
+  - cp .env.example .env (Note: .env should not be included in the repo. But since this is a test, I included it.)
 
-## 2. Expectations
-
-This simple application works, but with very old-style monolithic codebase, so do anything you want with it, to make it:
-
-  - easier to work with
-  - more maintainable
+After running commands:
+  - Create an empty database named "phptest" on your MySQL server
+  - Import the dbdump.sql in the "phptest" database
+  - Put your MySQL server credentials in the .env file
+  - You can test the demo script in your shell: "php index.php"
